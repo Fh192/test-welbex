@@ -1,0 +1,40 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px;
+  background: #f4f2ff;
+  gap: 50px;
+  border-radius: 0 0 8px 8px;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  span {
+    font-weight: 600;
+    font-size: 12px;
+    color: #6e6893;
+  }
+}
+
+.changePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+    &:disabled {
+      cursor: default;
+    }
+  }
+}

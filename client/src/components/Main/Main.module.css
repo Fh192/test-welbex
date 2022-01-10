@@ -1,0 +1,17 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.anchor {
+  /* display: none; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}

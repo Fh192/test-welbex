@@ -1,0 +1,14 @@
+.radios {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

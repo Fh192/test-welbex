@@ -1,0 +1,36 @@
+.sort {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid #f2f0f9;
+  padding: 10px 0;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #6e6893;
+  padding: 0px 10px;
+  padding-bottom: 10px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  width: 100%;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #f2f0f9;
+  }
+}
+
+.label {
+  cursor: pointer;
+  width: 100%;
+}

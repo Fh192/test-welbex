@@ -1,0 +1,25 @@
+.filterRadio {
+  position: relative;
+  padding: 5px 10px;
+  cursor: pointer;
+
+  input {
+    display: none;
+    cursor: pointer;
+
+    &:checked ~ .bg {
+      background: #6d5bd0;
+    }
+  }
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0.3;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}

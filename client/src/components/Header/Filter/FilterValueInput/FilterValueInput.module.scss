@@ -1,0 +1,13 @@
+.value {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #6d5bd0;
+    border-radius: 6px;
+  }
+}

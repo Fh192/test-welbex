@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: #fff;
+
+  & > span {
+    padding: 10px 20px;
+    border-bottom: 1px solid #d9d5ec;
+    border-left: 1px solid #d9d5ec;
+  }
+
+  @media screen and (max-width: 540px) {
+    grid-template-columns: unset;
+  }
+}
+
+.column {
+  background: #f4f2ff;
+  padding: 15px 20px;
+  text-transform: uppercase;
+
+  h3 {
+    color: #6e6893;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  @media screen and (max-width: 540px) {
+    padding: 0;
+  }
+}
